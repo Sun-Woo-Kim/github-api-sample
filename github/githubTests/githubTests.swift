@@ -19,11 +19,18 @@ class githubTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+        XCTAssertEqual(Util.getConsonant(text: "ABC"), "A")
+        XCTAssertEqual(Util.getConsonant(text: "aBC"), "A")
+        XCTAssertEqual(Util.getConsonant(text: "vaeBfC"), "V")
+        XCTAssertEqual(Util.getConsonant(text: "가나다"), "ㄱ")
+        XCTAssertEqual(Util.getConsonant(text: "까나따"), "ㄲ")
+        XCTAssertEqual(Util.getConsonant(text: "ㄱㅏ나다"), "ㄱ")
+        XCTAssertEqual(Util.getConsonant(text: " ㄱㅏ나다"), "ㄱ")
+        XCTAssertEqual(Util.getConsonant(text: " 배터리"), "ㅂ")
+        XCTAssertEqual(Util.getConsonant(text: " 바보"), "ㅂ")
+        XCTAssertEqual(Util.getConsonant(text: " 힣힣가"), "ㅎ")
+        XCTAssertEqual(Util.getConsonant(text: " ....하"), ".")
+        XCTAssertEqual(Util.getConsonant(text: " 123"), "1")
     }
 
     func testPerformanceExample() throws {

@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Differentiator (5.0.0)
+  - Kingfisher (6.3.1)
+  - Pageboy (3.6.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.0.0)
+  - Tabman (2.12.0):
+    - Pageboy (~> 3.6.0)
+
+DEPENDENCIES:
+  - Alamofire (= 5.5)
+  - Kingfisher (= 6.3.1)
+  - RxCocoa (= 6.5.0)
+  - RxDataSources (~> 5.0)
+  - RxSwift (= 6.5.0)
+  - SnapKit (= 5.0.0)
+  - Tabman (= 2.12)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Differentiator
+    - Kingfisher
+    - Pageboy
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - Tabman
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  Tabman: 447a50447ed2869c39ab3b1a779327e43e067c4e
+
+PODFILE CHECKSUM: e8461a6ae7b8a10ba1464729305abc164687e36e
+
+COCOAPODS: 1.11.2
