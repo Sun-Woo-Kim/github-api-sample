@@ -11,7 +11,7 @@
 
 
 ### 개발시기
--  2022. 03
+-  2022.03
 
 #### API
 - 활용 API 사이트 : https://api.github.com/search/
